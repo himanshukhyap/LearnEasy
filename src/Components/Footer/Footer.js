@@ -121,8 +121,8 @@ export default function Footer() {
               </Col>
             </Row>
           </Col>
-          <Col className="lfborderded" sm={5}>
-            <div className="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
+          <Col className="lfborderded bb" sm={5}>
+            <div className="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media">
               <h2 className="lfekit-heading--title elementskit-section-title ">
                 Get in touch
               </h2>
