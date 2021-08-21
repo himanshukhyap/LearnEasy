@@ -1,0 +1,123 @@
+/* .stnavitem {
+  border: 1px solid;
+  color: #fff;
+  background: #2878eb;
+  -webkit-box-shadow: 0 10px 30px rgb(40 120 235 / 25%);
+  box-shadow: 0 10px 30px rgb(40 120 235 / 25%);
+  border-radius: 4px;
+  width: 124px;
+  text-align: center;
+}
+a.stnavlink.nav-link.active {
+  color: #fff;
+}
+
+.stnavlink {
+  color: black;
+}
+.stnavlink:hover {
+  background: #2878eb;
+  color: #fff;
+  border-radius: 8px;
+}
+.sectionTop {
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+.stheading {
+  /* padding-bottom: 1rem; */
+/* padding-bottom: 1rem; */
+/* }
+.stnavpadding {
+  padding-bottom: 2rem;
+/* } */
+
+a.stnavlink.nav-link:hover {
+  color: #fff;
+  border: 1px solid;
+  /* color: #fff; */
+  background: #2878eb;
+  -webkit-box-shadow: 0 10px 30px rgb(40 120 235 / 25%);
+  box-shadow: 0 10px 30px rgb(40 120 235 / 25%);
+  border-radius: 4px;
+  width: 124px;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+}
+a.stnavlink.nav-link {
+  color: black;
+  font-weight: 500;
+}
+.sectionTop {
+  padding-left: 25px;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+.stnavpadding {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  /* margin: 0 0 0 -15px; */
+}
+li.stnavitem.nav-item {
+  margin-left: 42px;
+}
+ul.hpstnav.nav {
+  margin-left: -39px;
+}
+a.headernavlinkborder.l.nav-link {
+  border-right: none;
+}
+.mdsectioncartbutton {
+  margin: 2rem;
+  text-align: center;
+}
+button.submdsectioncartbutton.btn.btn-primary {
+  color: #fff;
+  background: #2878eb;
+}
+.stbackgroundcolor {
+  background: #f5f8fb;
+}
+.hpntnavitemn.nav-item a {
+  color: black;
+  margin-right: 19px;
+}
+.hpntnavitemn.nav-item a:hover {
+  color: #fff;
+  background-color: #0d6efd;
+
+  border: 0;
+  border-radius: 0.25rem;
+}
+button.submdsectioncartbutton {
+  color: #fff;
+  background: #2878eb;
+  border: none;
+  height: 46px;
+  width: 122px;
+  border-radius: 4px;
+}
+.middlesectionpadding {
+  padding-right: 20px;
+  padding-bottom: 2rem;
+  padding-left: 20px;
+  padding-top: 3rem;
+}
+.hpntnavitemn.nav-item::before {
+  content: "";
+  position: absolute;
+  left: 31px;
+  top: 50rem;
+  width: 6px;
+  height: 6px;
+  background: #f5ac00;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+.mddleheading {
+  padding-bottom: 2rem;
+}
+.hphomecart {
+  margin-bottom: 1rem;
+}

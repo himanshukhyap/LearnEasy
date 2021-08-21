@@ -1,0 +1,39 @@
+.carddd {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  /* max-width: 296px; */
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: auto;
+  width: 269px;
+  box-shadow: 2px 2px 1px grey;
+  /* height: 187px; */
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.carddd button {
+  position: absolute;
+  border: none;
+  outline: 0;
+  /* padding: 12px; */
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  /* width: 100%; */
+  width: 269px;
+  font-size: 18px;
+  opacity: 0.4;
+  margin: -26px 0 0 -135px;
+}
+
+.carddd button:hover {
+  opacity: 0.7;
+}
+.carddd img {
+  width: 269px;
+  height: 187px;
+}
