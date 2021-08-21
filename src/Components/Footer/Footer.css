@@ -6,6 +6,10 @@
   margin: auto;
   position: relative;
   padding: auto;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: auto;
 }
 h2.lfekit-heading--title.elementskit-section-title {
   color: #fff;
@@ -29,30 +33,51 @@ h2.lfekit-heading--title.elementskit-section-title {
 p.lfpsa {
   color: #b8b7c0;
 }
-.box-body {
-  display: -webkit-inline-box;
+li.box-body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  align-self: center;
 }
 ul.lfboxx {
+  text-align: center;
+  width: auto;
   list-style: none;
+  margin: auto;
+  vertical-align: middle;
+  display: grid;
 }
 ul.ekit_social_media {
   list-style: none;
   display: -webkit-inline-box;
 }
 .lfekit-heading.elementskit-section-title-wraper.text_left.ekit_heading_tablet-.ekit_heading_mobile- {
-  padding-left: 33px;
-  padding-bottom: 6%;
+  margin: auto;
 }
 .lfmrginsda.container {
+  margin: auto;
+  text-align: center;
   /* padding-left: 12%; */
   padding-top: 5rem;
+  vertical-align: middle;
+  justify-content: center;
   padding-bottom: 3rem;
+  justify-items: center;
 }
-.lfborderded.col-sm-7 {
+.lfborderded {
+  text-align: center;
+  /* margin: auto; */
   /* border: 1px solid white; */
   border-right: 1px solid;
   /* padding-right: 0px; */
   /* padding-left: 0%; */
+  vertical-align: middle;
+  justify-content: center;
 }
 img.lazyloadesdasdd {
   max-width: 191px;
@@ -71,12 +96,25 @@ span.eldskit_page_list_title_title {
   border-color: #ffffff26;
 }
 .lfforbottom.row {
-  padding-bottom: 66px;
+  margin: auto;
+  padding-bottom: 3rem;
 }
 .lfoostyel {
   border-top: 1px solid;
-  padding-top: 43px;
+  padding-top: 3rem;
 }
 .footercollast.col-sm-8 {
   align-self: center;
+}
+.lfstyel .flex-column.nav > a {
+  padding: 0.5rem 0rem;
+}
+.elementskit-infobox.text-.text-left.icon-lef-right-aligin.elementor-animation-.media {
+  /* width: 33rem; */
+  /* margin: 6rem; */
+  width: auto;
+  min-inline: 9rem;
+}
+svg.fticonpadding {
+  margin-right: 12px;
 }

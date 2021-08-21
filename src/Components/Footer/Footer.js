@@ -55,14 +55,14 @@ export default function Footer() {
               </Col>
               <Col>
                 {" "}
-                <div className="lfstyel2">
+                <div className="lfstyel">
                   <Nav defaultActiveKey="/home" className="flex-column">
                     <div className="lfmargin">
                       <h2 className="lfekit-heading--title elementskit-section-title ">
                         Platform
                       </h2>
                     </div>
-                    <Nav.Link href="/home">
+                    <Nav.Link>
                       <span className="lfekit_page_list_title_title">
                         Browse library
                       </span>
@@ -91,14 +91,14 @@ export default function Footer() {
                 </div>
               </Col>
               <Col>
-                <div className="lfstyel3">
+                <div className="lfstyel">
                   <Nav defaultActiveKey="/home" className="flex-column">
                     <div className="lfmargin">
                       <h2 className="lfekit-heading--title elementskit-section-title ">
                         Resources
                       </h2>
                     </div>
-                    <Nav.Link href="/home">
+                    <Nav.Link>
                       <span className="lfekit_page_list_title_title">
                         Library
                       </span>
@@ -121,76 +121,59 @@ export default function Footer() {
               </Col>
             </Row>
           </Col>
-          <Col sm={5}>
-            <div className="lfdssd">
-              <div className="lfekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-">
-                <h2 className="lfekit-heading--title elementskit-section-title ">
-                  Get in touch
-                </h2>
-              </div>
-              <div className="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                <div className="elementskit-box-header elementor-animation-">
-                  <div className="elementskit-info-box-icon  text-center">
-                    <i
-                      aria-hidden="true"
-                      className="elementkit-infobox-icon fas fa-map-marker-alt"
-                    ></i>
-                  </div>
-                </div>
-                <ul className="lfboxx">
-                  <li>
-                    <div className="box-body">
-                      <BiMap color="red" />
-                      <p className="lfpsa">
-                        500 Treat Ave, Suite 200 <br />
-                        San Francisco, CA 94110{" "}
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="box-body">
-                      <HiPhoneOutgoing color="red" />
-                      <p className="lfpsa">1-702-800-2690 (Support) </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="box-body">
-                      <AiOutlineMail color="red" />
-                      <p className="lfpsa">support@courselog.com </p>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="ekit_social_media">
-                  <li className="elementor-repeater-item-e9af37a">
-                    <a href="#" className="facebook">
-                      <i aria-hidden="true" className="icon icon-facebook">
-                        <TiSocialFacebookCircular color="white" size={35} />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="elementor-repeater-item-2ddd0c5">
-                    <a href="#" className="1">
-                      <i aria-hidden="true" className="icon icon-instagram-1">
-                        <AiOutlineInstagram color="white" size={35} />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="elementor-repeater-item-d346a82">
-                    <a href="#" className="linkedin">
-                      <i aria-hidden="true" className="icon icon-linkedin">
-                        <AiOutlineLinkedin color="white" size={35} />
-                      </i>
-                    </a>
-                  </li>
-                  <li className="elementor-repeater-item-ed20098">
-                    <a href="#" className="twitter">
-                      <i aria-hidden="true" className="icon icon-twitter">
-                        <AiFillTwitterCircle color="white" size={35} />
-                      </i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <Col className="lfborderded" sm={5}>
+            <div className="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
+              <h2 className="lfekit-heading--title elementskit-section-title ">
+                Get in touch
+              </h2>
+
+              <ul className="lfboxx">
+                <li className="box-body">
+                  <BiMap color="red" className="fticonpadding" size={25} />
+                  <p className="lfpsa">
+                    500 Treat Ave, Suite 200 <br />
+                    San Francisco, CA 94110{" "}
+                  </p>
+                </li>
+                <li className="box-body">
+                  <HiPhoneOutgoing
+                    color="red"
+                    className="fticonpadding"
+                    size={25}
+                  />
+                  <p className="lfpsa">1-702-800-2690 (Support) </p>
+                </li>
+                <li className="box-body">
+                  <AiOutlineMail
+                    color="red"
+                    className="fticonpadding"
+                    size={25}
+                  />
+                  <p className="lfpsa">support@courselog.com </p>
+                </li>
+              </ul>
+              <ul className="ekit_social_media">
+                <li className="elementor-repeater-item-e9af37a">
+                  <a href="#" className="facebook">
+                    <TiSocialFacebookCircular color="white" size={35} />
+                  </a>
+                </li>
+                <li className="elementor-repeater-item-e9af37a">
+                  <a href="#" className="facebook">
+                    <AiOutlineInstagram color="white" size={35} />
+                  </a>
+                </li>
+                <li className="elementor-repeater-item-e9af37a">
+                  <a href="#" className="facebook">
+                    <AiOutlineLinkedin color="white" size={35} />
+                  </a>
+                </li>
+                <li className="elementor-repeater-item-e9af37a">
+                  <a href="#" className="facebook">
+                    <AiFillTwitterCircle color="white" size={35} />
+                  </a>
+                </li>
+              </ul>
             </div>
           </Col>
         </Row>
